@@ -1,0 +1,42 @@
+.testimonials {
+  padding: 120px 0 100px 0;
+}
+
+.testimonials-title {
+  margin-bottom: 104px;
+}
+
+.testimonials-logo {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 52px;
+}
+
+.testimonials-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  max-width: 280px;
+  margin: 0 auto 52px auto;
+}
+
+.testimonials-client {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto 94px auto;
+  max-width: max-content;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.testimonials-client-title {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.testimonials-client-subtitle {
+  font-size: 12px;
+}
