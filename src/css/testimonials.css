@@ -40,3 +40,18 @@
 .testimonials-client-subtitle {
   font-size: 12px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .testimonials-title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  .testimonials-text {
+    max-width: 966px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+  }
+}

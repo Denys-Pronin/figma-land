@@ -61,3 +61,28 @@ main:has(.back-link) {
   color: rgba(255, 255, 255, 1);
   border: 0px;
 }
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-weight: 700;
+    max-width: 500px;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .title {
+    font-size: 78px;
+    max-width: 670px;
+    line-height: 84px;
+  }
+
+  .subtitle {
+    max-width: 760px;
+    font-size: 28px;
+  }
+}
