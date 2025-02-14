@@ -12,14 +12,23 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/figma-land/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/figma-land/assets/index-C40LQv9u.css">
+    <link rel="stylesheet" crossorigin href="/figma-land/assets/index-DNYrux_h.css">
   </head>
   <body>
     <header class="header">
   <div class="container header-container">
-    <a href="#">
-      <img src="/figma-land/assets/logo-KsuenXq9.png" alt="logo" />
-    </a>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a href="#" class="header-link">Home</a></li>
+        <li class="header-item"><a href="#" class="header-link">Product</a></li>
+        <li class="header-item"><a href="#" class="header-link">Pricing</a></li>
+        <li class="header-item"><a href="#" class="header-link">About</a></li>
+        <li class="header-item"><a href="#" class="header-link">Contact</a></li>
+      </ul>
+      <a href="#">
+        <img src="/figma-land/assets/logo-KsuenXq9.png" alt="logo" />
+      </a>
+    </nav>
     <button class="burger" type="button">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -34,6 +43,30 @@
         />
       </svg>
     </button>
+
+    <ul class="header-socials">
+      <li class="header-icon">
+        <a href="#">
+          <svg height="40" width="40">
+            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-icon">
+        <a href="#">
+          <svg height="40" width="40">
+            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-icon">
+        <a href="#">
+          <svg height="40" width="40">
+            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-linkedIn"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </header>
 
@@ -92,53 +125,61 @@
 </section>
 
       <section class="organize">
-  <div class="container">
-    <h2 class="title">Fastest way to organize</h2>
-    <h3 class="subtitle">Most calendars are designed for teams.</h3>
-    <button type="button" class="main-btn organize-btn">Try For Free</button>
+  <div class="container organize-container">
+    <div class="organize-wrapper">
+      <h2 class="title organize-title">Fastest way to organize</h2>
+      <h3 class="subtitle organize-subtitle">
+        Most calendars are designed for teams.
+        <span class="organize-subtitle-desktop">
+          Slate is designed for freelancers
+        </span>
+      </h3>
+      <button type="button" class="main-btn organize-btn">Try For Free</button>
+    </div>
     <img class="organize-img" src="/figma-land/assets/macbook-BwYfGDR8.jpg" alt="macbook pro" />
   </div>
 </section>
 
       <section class="newsletter">
-  <div class="container">
-    <p class="newsletter-text">At your fingertips</p>
-    <h2 class="title">Newsletter</h2>
-    <h3 class="subtitle">
+  <div class="container newsletter-container">
+    <p class="newsletter-text newsletter-hide">At your fingertips</p>
+    <h2 class="title newsletter-hide">Newsletter</h2>
+    <h3 class="subtitle newsletter-hide">
       Most calendars are designed for teams. Slate is designed for freelancers
     </h3>
     <img class="newsletter-img" src="/figma-land/assets/newsletter-Dah0GCzS.png" alt="news" />
-    <p class="newsletter-text">Subscribe to our Newsletter</p>
-    <p class="newsletter-secText">Available exclusivery on Figmaland</p>
-    <form class="newsletter-form">
-      <input
-        class="newsletter-import"
-        type="text"
-        name="email"
-        placeholder="Your Email"
-      />
-      <button class="main-btn newsletter-btn">Subscribe</button>
-    </form>
+    <div>
+      <p class="newsletter-text newsletter-show">At your fingertips</p>
+      <p class="subtitle newsletter-subtitle">Lightning fast prototyping</p>
+      <p class="newsletter-text">Subscribe to our Newsletter</p>
+      <p class="newsletter-secText">Available exclusivery on Figmaland</p>
+      <form class="newsletter-form">
+        <input
+          class="newsletter-input"
+          type="text"
+          name="email"
+          placeholder="Your Email"
+        />
+        <button class="main-btn newsletter-btn">Subscribe</button>
+      </form>
+    </div>
   </div>
 </section>
 
       <section class="partners">
   <div class="container">
-    <h2 class="title">Partners</h2>
+    <h2 class="title pratners-title">Partners</h2>
     <h3 class="subtitle pratners-subtitle">
       Most calendars are designed for teams. Slate is designed for freelancers
     </h3>
     <ul class="partners-list">
       <li class="partner">
-        <p class="partner-name">Client Name</p>
         <img class="partner-logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAABACAYAAABImajiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAA6hSURBVHgB7Z1rjFVXFcf3DAOlLVOssRTGSpPWznwwrbVgUyMVSGps5BFNSYqlTROFiK2JwUiNH8AIn1pM6QfRIVBSY6iQQDQ8qo2YCtT4gDaWatIZxARihkeNbRksr5nB8ztn9p1z7z177X1ed177l9x2uHPPubD3/q+19tpr79N0LUCVwOn3r6ney0r1Xqq+fdvUJjXjI03K4xlJtKiCeOPkgDp4vF8dP3stfPVelvV1161Nqn1as5o1s1ndd3uzmjHVi8MzfDTl8QinP7im9h3rVzuP9FsHvo257RPUo7MnqFmBKDxjj20nfqPO931Y9/5NE29UX7/jYTXcZBICAli376p689SAKho8w5oFE70gxhgPHviO+veH/6l7/7YbblGHH3pBDTepQiOs/pZDfWrn0X5VFojsqZevqAV3T1ArHmzxIZOnITgLgbh/9e4r4UBtBPvf7g89zoYlk9Rd07wYPOXiFH/s+Gu/enzb5YaJQMP3Pf7iZbXjSHkeyOMBq0fYcrhPbX29T6WBcOa+mVEmKJ4qjVKqUVYpzfxi44Gr4ZzBewZPWYhCSCMC0qEL725RC+5pVq3X2QcsgjjYPaD2H+u3imLtwoleBJ5SMQrBVQRYfQYqHiANiGVhMCHmRQj0/O+uqkPH6wXBvZk4ezxlkjh6CV1cRLD0sxPUL74xKbUIakFMTIrXBIM+7k28CDyNos4jYJ3JDkkwWNcsalFz7yp2kOIdWGn+1vYrYerUi8DTKOqEQEgkZYcQwc+WTQrnBGWAd8DLuMwzPJ6iqIppEAD5e4nnlkwsTQQaLwJPo6kSAmUTEoQreecDHs9IpDKq8QZSGpOQZfmcwopVPZ4RRUUIzA0kmBd4PGOVihAOdZu9ASXSvvjNM5YJYx021Uj7CVgvGHP09ir12mtKdXVFP/f0RO+3tirV1qbU7NlKdXREP5f+d/mnUueD14Xg1Xdh6P3J04O/zyej1/XTVdkwDlhD6jk/oC5cit6bMjlohmkjdPPU0aNR/9F39CHo/qPv6ENHQiEc7DZninTd0JiBwb99e9DrR+XPvbw9+j8N+tgypRYvVoVy8YxSp3YFnfhq9eA30XqnUjOXKHXzvYWKAgNIUaW8uSoaH4wD1noW3BMZRuaUPe8nX7PwnpKMJ4Oe/tu7Z2jwm0AQixZHfWcxaKEQjp8ze4MxIwKsxw/XDll+V7A4XLe5U6lvrswvCAb9Oz8JshOvpruu94RS/3g28hK3PxKJIgduAqiGgc/rjeC16ost4e5EU7q9cCEw6Ds7hwyUC/Q1/YZoMGbLlhk/GgnhrLkh2m8dA0LYsCFdAyZBoyIIPAmCyBIyvfu6Un9/1s0DmLgUeJKuTUqd3B24/o2ZvAMZQlbvs5bV670iDQuVMEbfXZXeiGm47sfBGDjdE/Ud4VMNLZwyIVmE9gIWz2hw4s8ymNshVLtiRVYsjxqyKPbsibzLlq3pxHDiJaX+9XNVGAjiaDA47l0fzSEcweghgrx7zOnThuxPIZTFANnCIBcIqXTf1YihxfaPKUL1iGD9/quqDDqmX6dapxl+WbQINFgY7r1jZ6J1qaNoEWi0GB7Y4uQZtCfIK4KGob1wESLQMB7wDj9aV/V24BHk68gajGR6gs5N3KtAOOQiAqz6vPlDA5pG7+6KLIf4xT2Ru8a6SBAOuYigZcrQRLjlxiB8+l+UTXrvb/J1hFmI4XNbonsYcBUB3pUSGl78nGUjVSFoY2MTAf3GhJikhr6O8FXqP7x6e0fVnGHULxX3XkzoWNypbU5Aao140ZRio0E7BydaJmhs3K1pEkZm6J1NSoTBe8eTSn384eSBjNU/EQip57fme4SfeSkYDN82fsSlmHLp/RPUo0GqPCnU5FruYatFKwzaXpoTIICVK6NJcBJ6XsBYSIJJ9Pz5lfC2uc1y6twFi8cYbi5cTniTBpCgAbHkUp6ZBloXuM/vrVYiNKjJapEeZZCaILZ/8JdBFmiJ2ZqTJfrU96OJsWDx1andRu/RfVYupiT8pXKAEhrTfEtvwHrukYnlF0UyiCUDRN8Qlj62TP7M8xsjb5EEfUbfDWJNCSUOtBFE7ZGSoduTLAkiwBO4grWviSer/wK9kVeoJVwn2G2+DhHYBnccwibb508kh2Ds+TahReBaUUyVwZqFJQcSnZ3m3zHA0yQqVgp9vWdoLaKZhpAU3nWmwbFhSuom8yZXCDocSgtrB0IOOtF6SbE98wCyPa4i0CCeO580/57vrEnN2oops5wdpU8lLA1psRMP7SICwtblwRxjwZflzw0asVDa06cGwjiX/DkaMe/iCCnOWbdfp7LCwo1p62jr9bFORN1/EIQgWXYbCGiPYTUTD8Qr3kFSTM9i2OSMq8Nci6e5aAi5+N7YYtvBLrMIWCzNugsQAb3y9kDxGSgGsMmjY8iI603QN/QRr27HbCFzycBrhEKgQY6fS44hkzbUpwWP05pdB/XhT9W9Y3+QskR564aYnJFdMsWueKK413jvLfO9pn1e5eITwcpyt2ESTqYpBgczm8hj4FonN6nPzGwKxkfBQpD60BTvIx7a36XsIk4sQqgIwXSMI4MQrzCcpRaSa6+KbaVGnCdYEldoOJMQ4lasZjBWQayf1Rtops0xC6FGgFLVwBfa8/UpIVIRhrIKKe2pU6Sgiyax/ra6sTg63bp4cdX9QiFweJbOGSdB2my49iMQ45pqoermN9IkOd6IWZHucTr23VeFEgqK5/ISrjVMSS7VqPluU5/a5oYutJexZVey6LS/Tk4Q0qS1/hhDBJBUYsF/bG4Oi8xgHI5DtqTSjLo6KKlhXFaAbUj3iH+3lDJNO0GW7pMkhNh70rpBERUDjJuGwuQ3i/VnXmEpya7kwb52f0sgBPMxLhzANRxeQcp/z20fQ+XhHjuuImAuiOVnncHRAFaEwByAlyke530O423kJp19luMg6+Yt0j86a+Wi6z3i3y1Z/TyVp3FMXif23VOEBEURBXOmvQjDhq1aQKBqJJESkyCFKe1dKBJiW+m0PdJ+de5dygoVUXwn3WNG7LulalD2FeRFmozHiu8IXUzzAIRQRAVq4aTN7OlSi0OH7dUCAlVCwMJKp9eRQVq9qzHPSFi/V66NSUz9SY0gLdm7Ylus0+jJbBIJi16p+a+wWFeTkZJWjKU1BheknY2ZcU1q0N4MfARg2GOQhrogm+VzKZugqxjL8gxYKc5XkvLfeIPEdC6NaGoQJrNHU0y0atFVjSZqO1DyCid3qVxIpRs1axSSYctTQMc4KDx1CjaLTuxPnVEO659E3WjCnXKanYR+gIftCJi0aJHZOkgM4RYJWynz1LavXWv+HR1S69JvERbNpJVhG1SZSlmpj95b9UeO6Teh531ZKLrvK2BQZgjhEYYuayp8lXmXW2IrYW1t8wUghv/KTy/n3n0WPpstaNgnXrwiLgCBtTZGWoLXpblpoQhM8gZJ4jOVVQOh0Vtr0odIzA2kvQ1tD9eFRhg2aTGUPkwb6rLXudRybGlfOGsIUohqgj6k/Ibao4SiPmMLUZLrIgb98L/Qkh9L95hZnqCDAL666UrYIbZryVhZT9vDOksuk5VI1/2veA82+Gy2VEMmdRwimPmI+ToG9Z9WuHsGaojYgCNhKMiT+pF5H33nuvGGPt74+3J2G1ZYZkl74tldxZDUh/yMIGLJD+vjZRmgad0gFkg/UDxuvREN+xu6z0WnIaSxRBwhsnbBRLcPM8iXPiqHQQxgJlnz59c3ul6+39xpF4wUq2Lx/2wZ7PpUilvmJG+3ZGLMvoZ3/6hEKLTreNr4a9aBbE9DlZ5kyp6GHUfcN+b85QfVWxtTP14Wy2/z3hgg00EKek7IPaQ+5Pog6+T0nOUsYiiSVCLQuDSkZtbsSAy8umsOjJJw2dtAlshmyTU3f7paDIjg0ln7dVzzgLxVE8v/xDa3jB9GrG1qc2UdIq3RgtxCADy3i+XX84r4dltCWZc+ZOIdXO/8wHFSZRsP9DUkdRqHcGjVQylFoMGiS5s88oA1ci3rxqJ3bVKlgAjYsONQyJf3GJc0FCIEBjKevYjF0CRWr67scnOuUaDSkBKLRj3FhhQu2avMIoBBt1c4aUQAlrAlMylEAHo32qg5xxYLn/bYHFdiIoBUxTp63yqNWVZZNgIgTv3V05OKeTQVYmDQFtWYNGCWDT6IIeOBXInorZspS7qLEgPhakOMot6fvKigIzf1Vs+a/c7OoVESxI7SsX9psJ2ikBuXUykkmBCzTTBvObfLqRQSzAPwLqRKc8Lcj/5LGyrpcJWFT1PfFxIa1ULGzyWBYYJslGEVOpcQNPqZyW8G6wndZwecVp0Z7GwR5ZTlee0TGrfxRx8iS07Z1qApynhTgyA4ABhBuKRQ8QBtX4o25RRVyq0GTyEMDNpWh+NemETHn5pkEgLe5tdPVVf8JYlAc9sNH1OpQBB797hVCtCHCMBSiVqIEGrRh0JBT03jtgWNNGPwNewghKRjxXklrRaXBaLgWHjWFjjYi7Tr5FujAX/T4LHwBQ5+E+GR8B8MhKlSvaZD9mjGoMGq9dRphFAK9Bn9p4/2Z3PUlNbqo/0d+7AUIXjGB6aFODzGaHvCkt/Z4smMqRym7KeuloF/OuA4Qz8XgXUhUuIuZTRJSE9Z6hiFjxLwQhgnMHApbX/l2NAAPnO+P8zUZcnSSZnC0fhwGS+EcYCpzoiyi2d2pd+LLqXMR0wiJCV+jjAOmNdhXvhisvvM7qvOVcN4lhcOmOvOsoZaw43PGo0TbKXWWPEVc1oqDwqshZTqvmN9YgVrw9KmJeCFME5gsYyNTy4PCmHNgMVO0GXztg1TQPlNo2rRisYLYRxBpogwqAxyVQmPAPwcYRxBuhSrXTSsGywfpXMDjfcI4xDCnNW7i9mXwJxi1UMt5T9Fp2S8EMYpeZ+JxsDnoeOjdU5QixfCOEcLwnU7ZngIXBBicUzMaPcCcbwQPBUImSjJZqFNiyI8Pn5yk7ECdazwf8ut/9uUdePDAAAAAElFTkSuQmCC" alt="google" />
       </li>
       <li class="partner">
-        <p class="partner-name">Client Name</p>
         <img class="partner-logo" src="/figma-land/assets/amazon-CJTTBbHx.png" alt="amazon" />
       </li>
       <li class="partner">
-        <p class="partner-name">Client Name</p>
         <img
           class="partner-logo"
           src="/figma-land/assets/microsoft-CLlRVofX.png"
@@ -265,79 +306,93 @@
   <div class="container">
     <h2 class="title">Contact Us</h2>
     <h3 class="subtitle">Most calendars are designed for teams.</h3>
-    <ul class="contact-icons">
-      <li class="contact-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-twitter"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="contact-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="contact-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-linkedIn"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-    <ul class="contacts">
-      <li class="contacts-item">
-        <svg class="contacts-icon" height="40" width="40">
-          <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-gps"></use>
-        </svg>
-        <p class="contacts-text">
-          6386 Spring St undefined Anchorage, Georgia 12473 United States
-        </p>
-      </li>
-      <li class="contacts-item">
-        <svg class="contacts-icon" height="40" width="40">
-          <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-phone"></use>
-        </svg>
-        <p class="contacts-text">(843) 555-0130</p>
-      </li>
-      <li class="contacts-item">
-        <svg class="contacts-icon" height="40" width="40">
-          <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-mail"></use>
-        </svg>
-        <p class="contacts-text">willie.jennings@example.com</p>
-      </li>
-    </ul>
-    <form class="contact-form">
-      <p class="contact-form-title">Contact Us</p>
-      <input
-        type="text"
-        class="contact-input"
-        name="name"
-        placeholder="Your Name"
-      />
-      <input
-        type="email"
-        class="contact-input"
-        name="email"
-        placeholder="Your Email"
-      />
-      <textarea
-        name="message"
-        class="contact-text"
-        placeholder="Your Message"
-      ></textarea>
-      <button class="main-btn contact-btn">Send</button>
-    </form>
+    <div class="contact-container">
+      <div class="contact-wrapper">
+        <ul class="contact-icons">
+          <li class="contact-icon">
+            <a href="#">
+              <svg height="40" width="40">
+                <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contact-icon">
+            <a href="#">
+              <svg height="40" width="40">
+                <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contact-icon">
+            <a href="#">
+              <svg height="40" width="40">
+                <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-linkedIn"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <ul class="contacts">
+          <li class="contacts-item">
+            <svg class="contacts-icon" height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-gps"></use>
+            </svg>
+            <p class="contacts-text">
+              6386 Spring St undefined Anchorage, Georgia 12473 United States
+            </p>
+          </li>
+          <li class="contacts-item">
+            <svg class="contacts-icon" height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-phone"></use>
+            </svg>
+            <p class="contacts-text">(843) 555-0130</p>
+          </li>
+          <li class="contacts-item">
+            <svg class="contacts-icon" height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-mail"></use>
+            </svg>
+            <p class="contacts-text">willie.jennings@example.com</p>
+          </li>
+        </ul>
+        <iframe
+          class="contacts-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12614.127182881557!2d-122.42894245012165!3d37.77757517844285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a196ede719%3A0x2fb5607634331f2f!2z0KXQsNC50LXRgSDQktGN0LvQu9C4LCDQodCw0L0t0KTRgNCw0L3RhtC40YHQutC-LCDQmtCw0LvQuNGE0L7RgNC90LjRjywg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1739540788123!5m2!1sru!2sua"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form class="contact-form">
+        <p class="contact-form-title">Contact Us</p>
+        <input
+          type="text"
+          class="contact-input"
+          name="name"
+          placeholder="Your Name"
+        />
+        <input
+          type="email"
+          class="contact-input"
+          name="email"
+          placeholder="Your Email"
+        />
+        <textarea
+          name="message"
+          class="contact-text"
+          placeholder="Your Message"
+        ></textarea>
+        <button class="main-btn contact-btn">Send</button>
+      </form>
+    </div>
   </div>
 </section>
 
     </main>
 
     <footer class="footer">
-  <div class="container">
+  <div class="container footer-container">
     <div class="footer-lists">
       <div class="footer-wrapper">
         <p class="footer-title">Pages</p>
@@ -400,43 +455,45 @@
         </ul>
       </div>
     </div>
-    <ul class="footer-contacts">
-      <li class="footer-contact">
-        <svg width="40" height="40">
-          <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-gps"></use>
-        </svg>
-        <p class="footer-contact-text">7480 Mockingbird Hill</p>
-      </li>
-      <li class="footer-contact">
-        <svg width="40" height="40">
-          <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-phone"></use>
-        </svg>
-        <p class="footer-contact-text">(239) 555-0108</p>
-      </li>
-    </ul>
-    <ul class="footer-socials">
-      <li class="footer-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-twitter"></use>
+    <div class="footer-contacts-wrapper">
+      <ul class="footer-contacts">
+        <li class="footer-contact">
+          <svg width="40" height="40">
+            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-gps"></use>
           </svg>
-        </a>
-      </li>
-      <li class="footer-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-facebook"></use>
+          <p class="footer-contact-text">7480 Mockingbird Hill</p>
+        </li>
+        <li class="footer-contact">
+          <svg width="40" height="40">
+            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-phone"></use>
           </svg>
-        </a>
-      </li>
-      <li class="footer-icon">
-        <a href="#">
-          <svg height="40" width="40">
-            <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-linkedIn"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
+          <p class="footer-contact-text">(239) 555-0108</p>
+        </li>
+      </ul>
+      <ul class="footer-socials">
+        <li class="footer-icon">
+          <a href="#">
+            <svg height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-icon">
+          <a href="#">
+            <svg height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-icon">
+          <a href="#">
+            <svg height="40" width="40">
+              <use href="/figma-land/assets/icons-B4UM9HZr.svg#icon-linkedIn"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </footer>
 
