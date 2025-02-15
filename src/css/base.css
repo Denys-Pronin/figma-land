@@ -67,6 +67,9 @@ main:has(.back-link) {
 .main-btn:hover {
   background-color: #055baa;
 }
+button {
+   -webkit-tap-highlight-color: transparent;
+}
 
 @media only screen and (min-width: 768px) {
   .title {
