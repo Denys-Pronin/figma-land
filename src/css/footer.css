@@ -56,6 +56,16 @@ footer {
   }
 }
 
+.footer {
+  a {
+    transition: color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  a:hover {
+    color: #055baa;
+    fill: #055baa;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .footer-lists {
     flex-direction: row;

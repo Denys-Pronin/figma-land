@@ -1,4 +1,4 @@
-<section class="contact">
+<section id="contact" class="contact">
   <div class="container">
     <h2 class="title">Contact Us</h2>
     <h3 class="subtitle">Most calendars are designed for teams.</h3>
@@ -62,23 +62,29 @@
       </div>
       <form class="contact-form">
         <p class="contact-form-title">Contact Us</p>
-        <input
-          type="text"
-          class="contact-input"
-          name="name"
-          placeholder="Your Name"
-        />
-        <input
-          type="email"
-          class="contact-input"
-          name="email"
-          placeholder="Your Email"
-        />
-        <textarea
-          name="message"
-          class="contact-text"
-          placeholder="Your Message"
-        ></textarea>
+        <div class="input-wrapper">
+          <input
+            type="text"
+            class="contact-input"
+            name="name"
+            placeholder="Your Name"
+          />
+        </div>
+        <div class="input-wrapper">
+          <input
+            type="email"
+            class="contact-input"
+            name="email"
+            placeholder="Your Email"
+          />
+        </div>
+        <div class="input-wrapper">
+          <textarea
+            name="message"
+            class="contact-text"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
         <button class="main-btn contact-btn">Send</button>
       </form>
     </div>

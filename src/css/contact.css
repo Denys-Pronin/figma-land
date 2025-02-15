@@ -10,6 +10,10 @@
   margin-bottom: 88px;
   a {
     fill: #0673da;
+    transition: fill 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  a:hover {
+    fill: #055baa;
   }
 }
 
@@ -86,6 +90,21 @@
 
 .contacts-map {
   display: none;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.error-message {
+  position: absolute;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.input-error {
+  border: 1px solid red;
 }
 
 @media only screen and (min-width: 1200px) {

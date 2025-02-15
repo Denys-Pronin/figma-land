@@ -34,6 +34,10 @@
   button {
     background-color: #fff;
     color: #0673da;
+    transition: background-color 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  button:hover {
+    background-color: #bdbbbb;
   }
 }
 
