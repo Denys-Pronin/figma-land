@@ -29,11 +29,11 @@
 }
 
 .price:nth-child(2) {
-  background-color: #2091f9;
+  background-color: #0673da;
   color: #fff;
   button {
     background-color: #fff;
-    color: #2091f9;
+    color: #0673da;
   }
 }
 

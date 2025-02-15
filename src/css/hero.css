@@ -1,5 +1,5 @@
 .hero {
-  background: url(../img/bg/hero/hero.jpg) center center / cover no-repeat;
+  background: url(../img/bg/hero/hero.webp) center center / cover no-repeat;
   padding: 204px 0 266px 0;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
   overflow: hidden;

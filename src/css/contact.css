@@ -9,7 +9,7 @@
   gap: 24px;
   margin-bottom: 88px;
   a {
-    fill: #2091f9;
+    fill: #0673da;
   }
 }
 
@@ -30,7 +30,7 @@
 
 .contacts-icon {
   flex-shrink: 0;
-  fill: #2091f9;
+  fill: #0673da;
 }
 
 .contact-form {
